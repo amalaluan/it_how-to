@@ -3,14 +3,17 @@
 ### Using a Framework (e.g., Vite with React)
 
 There are two ways to test your application when using a framework:
+
 1. **Modify the Dev Script:**  
-  !["Mock up design"](assets/mockup.png) <br />
-   Add the `--host` flag to the dev script. For example, if you're using Vite with React, run the following command in your terminal:
+   !["Mock up design"](assets/wf_1st.png) <br />
+   Add the `--host` flag to the dev script (located at `package.json` file under scripts). For example, if you're using Vite with React, run the following command in your terminal:
+
    ```bash
    npm run dev -- --host
    ```
 
 2. **Directly Run the Dev Script:**  
+   !["Mock up design"](assets/wf_2nd.png) <br />
    Alternatively, you can add the `--host` flag directly to your dev script and run it.
 
 ### Without a Framework (Manual Setup)
@@ -19,12 +22,14 @@ If you're not using a framework, follow these steps:
 
 1. **Open Command Prompt:**  
    Open the command prompt and type the following command:
+
    ```bash
    ipconfig
    ```
 
 2. **Locate the IPv4 Address:**  
    Find your local IPv4 address under the network adapter section. For example:
+
    ```
    IPv4 Address: 192.168.68.106
    ```
