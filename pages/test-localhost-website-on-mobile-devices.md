@@ -5,7 +5,7 @@
 There are two ways to test your application when using a framework:
 
 1. **Modify the Dev Script:**  
-   !["Mock up design"](assets/wf_1st.png) <br />
+   !["Mock up design"](../assets/wf_1st.png) <br />
    Add the `--host` flag to the dev script (located at `package.json` file under scripts). For example, if you're using Vite with React, run the following command in your terminal:
 
    ```bash
@@ -13,7 +13,7 @@ There are two ways to test your application when using a framework:
    ```
 
 2. **Directly Run the Dev Script:**  
-   !["Mock up design"](assets/wf_2nd.png) <br />
+   !["Mock up design"](../assets/wf_2nd.png) <br />
    Alternatively, you can add the `--host` flag directly to your dev script and run it.
 
 ### Without a Framework (Manual Setup)
