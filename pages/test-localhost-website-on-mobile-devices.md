@@ -1,4 +1,4 @@
-# How to Test Your Application In Mobile Devices (Localhost)
+# Exposing Localhost for Mobile Testing: A Step-by-Step Guide
 
 ### Using a Framework (e.g., Vite with React)
 
